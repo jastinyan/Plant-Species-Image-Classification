@@ -4,9 +4,13 @@ Gourd Family Plant
 ## 📌 A. Project Overview
 
 ### 📖 Brief Description
+This project focuses on designing, training, evaluating, and documenting an **image classification model** that can recognize **20 related plant species**. The model was created using **Google Teachable Machine**, where a dataset of plant images was collected, organized into classes, and trained to accurately classify plant species based on visual features such as leaves, flowers, fruits, and overall plant structure. The entire process, including dataset preparation, model evaluation, and testing results, is documented using **GitHub**.
 
-### 🎯 Purpose of the Image Classification Model
+### 🎯 Purpose 
 The purpose of this model is to:
+- Automatically identify and classify different plant species using images
+- Demonstrate the application of machine learning in plant recognition
+- Improve skills in dataset handling, model training, and evaluation using accuracy metrics
 
 ---
 
@@ -14,12 +18,16 @@ The purpose of this model is to:
 
 The following plant species were included in the dataset:
 
+Belong to GOURD FAMILY PLANT or the _Cucurbitaceae_.
+
+It is a group of mostly vining plants that usually grow creeping or climbing and produce large fruits with seeds inside. Many members are important vegetables and fruits, especially in tropical and warm climates.
+
 | Common Name | Scientific Name | Description |
-|------------|-----------------|-------------|
-| Plant 1 | *(Scientific name if available)* | Short description of the plant species. |
-| Plant 2 | *(Scientific name if available)* | Short description of the plant species. |
-| Plant 3 | *(Scientific name if available)* | Short description of the plant species. |
-| Plant 4 | *(Scientific name if available)* | Short description of the plant species. |
+---|------------|-----------------|-------------|
+1.| Cucumber | _Cucumis sativus_ | A climbing or creeping vine plant that produces long green fruits commonly eaten fresh or pickled.|
+2.| Watermelon | _Citrullus lanatus_ | A spreading vine plant known for its large round or oval fruit with sweet red flesh and high water content. |
+3.| Cantaloupe | _Cucumis melo_ | A vine plant that produces sweet, orange-fleshed melon fruit with a netted rind, commonly eaten fresh. |
+| Pumpkin | *(Scientific name if available)* | Short description of the plant species. |
 | Plant 5 | *(Scientific name if available)* | Short description of the plant species. |
 
 ---
