@@ -1,6 +1,6 @@
 
 # 🌿 Plant Image Classification Model
-Gourd Family Plant
+   ### Gourd Family Plant
 ## 📌 A. Project Overview
 
 ### 📖 Brief Description
@@ -22,13 +22,12 @@ Belong to GOURD FAMILY PLANT or the _Cucurbitaceae_.
 
 It is a group of mostly vining plants that usually grow creeping or climbing and produce large fruits with seeds inside. Many members are important vegetables and fruits, especially in tropical and warm climates.
 
-| Common Name | Scientific Name | Description |
----|------------|-----------------|-------------|
+| No. | Common Name | Scientific Name | Description |
+|-|------------|-----------------|-------------|
 1.| Cucumber | _Cucumis sativus_ | A climbing or creeping vine plant that produces long green fruits commonly eaten fresh or pickled.|
 2.| Watermelon | _Citrullus lanatus_ | A spreading vine plant known for its large round or oval fruit with sweet red flesh and high water content. |
 3.| Cantaloupe | _Cucumis melo_ | A vine plant that produces sweet, orange-fleshed melon fruit with a netted rind, commonly eaten fresh. |
-| Pumpkin | *(Scientific name if available)* | Short description of the plant species. |
-| Plant 5 | *(Scientific name if available)* | Short description of the plant species. |
+
 
 ---
 
