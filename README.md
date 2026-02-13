@@ -90,7 +90,7 @@ Google Drive Link of the Data Set Images: https://drive.google.com/drive/folders
 
 ## 📊 D. Model Evaluation
 <h3 align="center"> Model Parameters</h3>
-<p align="center"> <img src="Model/Parameters.png" width="500"> </p>
+<p align="center"> <img src="Model/confusion_matrix.png" width="500"> </p>
 
 <h3 align="center"> Training</h3>
 <p align="center"> <img src="Model/training.png" width="500"> </p>
