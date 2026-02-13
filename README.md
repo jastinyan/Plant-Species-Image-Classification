@@ -61,6 +61,8 @@ The model was trained using the following parameters:
 
 ### 📂 Dataset Summary
 
+Google Drive Link of the Data Set Images: https://drive.google.com/drive/folders/1OU-Y7QFH0tz-iHOCyCQ-gLuIcPaLmpbC?usp=sharing
+
 | Plant Species / Class | Number of Images |
 |----------------------|------------------|
 |Cucumber | 250 |
