@@ -1,16 +1,17 @@
 
-# 🌿 Plant Image Classification Model
-   ### Gourd Family Plant
+<h1 align="center"> 🌿 Plant Image Classification Model 🌿 </h1>
+   <h2 align="center"> Gourd Family Plant</h2>
+   
 ## 📌 A. Project Overview
 
 ### 📖 Brief Description
-This project focuses on designing, training, evaluating, and documenting an **image classification model** that can recognize **20 related plant species**. The model was created using **Google Teachable Machine**, where a dataset of plant images was collected, organized into classes, and trained to accurately classify plant species based on visual features such as leaves, flowers, fruits, and overall plant structure. The entire process, including dataset preparation, model evaluation, and testing results, is documented using **GitHub**.
+   This project focuses on designing, training, evaluating, and documenting an **image classification model** that can recognize **20 related plant species**. The model was created using **Google Teachable Machine**, where a dataset of plant images was collected, organized into classes, and trained to accurately classify plant species based on visual features such as leaves, flowers, fruits, and overall plant structure. The entire process, including dataset preparation, model evaluation, and testing results, is documented using **GitHub**.
 
 ### 🎯 Purpose 
 The purpose of this model is to:
-- Automatically identify and classify different plant species using images
-- Demonstrate the application of machine learning in plant recognition
-- Improve skills in dataset handling, model training, and evaluation using accuracy metrics
+   - Automatically identify and classify different plant species using images
+   - Demonstrate the application of machine learning in plant recognition
+   - Improve skills in dataset handling, model training, and evaluation using accuracy metrics
 
 ---
 
@@ -53,7 +54,7 @@ It is a group of mostly vining plants that usually grow creeping or climbing and
 
 The model was trained using the following parameters:
 
-- **Epochs:** `50`
+- **Epochs:** `55`
 - **Batch Size:** `16`
 - **Learning Rate:** `0.001`
 - **Number of Images per Class:** `Minimum of 250`
@@ -86,9 +87,19 @@ The model was trained using the following parameters:
 ---
 
 ## 📊 D. Model Evaluation
-- Confusion matrix
-- Accuracy per class
-- Overall model accuracy
+<h3 align="center"> Model Parameters</h3>
+<p align="center"> <img src="Model/Parameters.png" width="500"> </p>
+
+<h3 align="center"> Training</h3>
+<p align="center"> <img src="Model/training.png" width="500"> </p>
+
+<h3 align="center"> Confusion Matrix and Accuracy Per Class</h3>
+<p align="center"> <img src="Model/confusion_matrix.png" width="500"> </p>
+
+<h3 align="center"> Overall Accuracy </h3>
+<p align="center"> <img src="Model/overall_accuracy.png" width="500"> </p>
+
+
 ---
 
 ## 🧪 E. Model Testing
@@ -97,18 +108,18 @@ Below are **10 testing screenshots** taken from the Preview section:
 
 ### 🔍 Testing Results Screenshots
 
-1. ![Test 1](screenshots/test1.png)
-2. ![Test 2](screenshots/test2.png)
-3. ![Test 3](screenshots/test3.png)
-4. ![Test 4](screenshots/test4.png)
-5. ![Test 5](screenshots/test5.png)
-6. ![Test 6](screenshots/test6.png)
-7. ![Test 7](screenshots/test7.png)
-8. ![Test 8](screenshots/test8.png)
-9. ![Test 9](screenshots/test9.png)
-10. ![Test 10](screenshots/test10.png)
-
-📌 *All screenshots are saved inside the `screenshots/` folder.*
+| Test No. | Test Result |
+|----------------------|------------------|
+|Test 1 | <img src="sampletest/Test1.png" width="300"> <img src="sampletest/Test1.1.png" width="300">  |
+|Test 2| <img src="sampletest/Test2.png" width="300"> <img src="sampletest/Test2.1.png" width="300"> |
+| Test 3| <img src="sampletest/Test3.png" width="300"> |
+| Test 4| <img src="sampletest/Test4.png" width="300">  <img src="sampletest/Test4.1.png" width="300"> |
+| Test 5| <img src="sampletest/Test5.png" width="300"> <img src="sampletest/Test5.1.png" width="300"> |
+| Test 6| <img src="sampletest/Test6.png" width="300"> <img src="sampletest/Test6.1.png" width="300"> |
+| Test 7|<img src="sampletest/Test7.png" width="300">|
+| Test 8| <img src="sampletest/Test8.png" width="300"> <img src="sampletest/Test8.1.png" width="300"> |
+| Test 9| <img src="sampletest/Test9.png" width="300"> |
+| Test 10| <img src="sampletest/Test10.png" width="300"> |
 
 ---
 
@@ -116,18 +127,25 @@ Below are **10 testing screenshots** taken from the Preview section:
 
 ### 1. How did the number of images per class affect your model’s accuracy?
 
+_Answer:_
+#### Having more images per class improved accuracy because the model learned more variations of each plant. Classes with fewer images were more likely to be misclassified due to limited training data.
 ---
 
 ### 2. Which plant species were most commonly misclassified and why?
-
+_Answer:_
+#### Plants with similar features were often misclassified, especially squash types like Pumpkin, Calabaza, and Acorn Squash, as well as gourds like Bottle, Sponge, and Ridge Gourd. Their leaves and fruits look very similar, making classification difficult.
 ---
 
 ### 3. How did changing the epochs, batch size, or learning rate affect the training results?
-
+_Answer:_
+#### Increasing epochs improved learning but too many could cause overfitting. A batch size of 16 helped keep training stable, while the learning rate of 0.001 allowed gradual improvement without making training unstable.
 ---
 
 ### 4. What challenges did you encounter during dataset collection and labeling?
-
+_Answer:_
+#### The main challenges were finding enough clear images, keeping image quality consistent, and correctly labeling plants since many gourd species look alike.
 ---
 
 ### 5. If you were to improve your model, what specific changes would you make and why?
+_Answer:_
+#### I would add more images per class, include more photos of flowers and fruits, and test using real-life plant images. This would reduce misclassification and improve accuracy.
